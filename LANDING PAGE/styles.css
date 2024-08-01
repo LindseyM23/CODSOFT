@@ -1,0 +1,334 @@
+/* fonts */
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+/* nav section */
+.navbar{
+    opacity: 90px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+.fs-4{
+    color: #6eb3cf;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: bold;  
+}
+#abt-us{
+    color: #6eb3cf;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: light;
+  font-size: 20px;
+}
+#home{
+  background-color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: light;
+  font-size: 20px;
+  color: #6eb3cf;
+  border: 1px solid #6eb3cf;
+}
+#prod{
+    color: #6eb3cf;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: light;
+  font-size: 20px;
+}
+#found{
+    color: #6eb3cf;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: light;
+  font-size: 20px;
+}
+#app{
+    color: #6eb3cf;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: light;
+  font-size: 20px;
+}
+
+.nav-logo{
+    width: 100px;
+    animation: spin 5s linear infinite;
+}
+/* hero section  */
+.hero-section{
+    padding-top: 30px;
+    background-color:#dee7ea;
+}
+
+.lead{
+    font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+    font-style: light; 
+    padding-top: 0px; 
+    color: black;
+}
+.display-4{
+    font-family: "Cormorant Garamond", serif;
+    color:white ;
+    padding-top: 30px;
+    
+}
+
+.hero-image{
+    animation: spin 5s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.contact-us{
+  background-color: #DFE7EA;
+border: none;
+text-decoration: none;
+  border: 1px solid #6eb3cf;
+padding: 15px;
+border-radius: 10px;
+}
+.contact-us a {
+  color: #6eb3cf;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+.contact-us:hover{
+ 
+  background-color: white;
+  border-color: radial-gradient(circle, rgba(110,179,207,1) 0%, rgba(0,143,199,1) 12%, rgba(177,214,229,1) 100%, rgba(255,255,255,0.7357536764705883) 100%);;
+}
+/* about us */
+.about-us{
+   display: flex;
+   flex-wrap: wrap; 
+gap: 20px;
+align-items: center;
+padding: 20px;
+background-color:white;
+}
+.about-us-heading{
+    font-size:170px ;
+    padding-left: 30px;
+   
+}
+.about-us-content{
+    flex:1;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .about-us-content,
+    .about-us-image {
+      width: 100%; 
+    }
+  }
+.check-our-story{
+border: 1px solid #6eb3cf;
+background-color: white;
+padding: 23px;
+border-radius: 20px;
+color: #6eb3cf;
+
+font-size: 23px;
+}
+.check-our-story a{
+    text-decoration: none;
+    color: #6eb3cf;
+}
+.check-our-story:hover{
+    color: white;
+}
+
+/* logo carousel */
+.logo-heading{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-weight: bold; 
+    font-size: 40px; 
+}
+.logo-carousel{
+    text-align: center;
+    padding: 30px;
+    background-color:#dee7ea;
+}
+.logo-images{
+    padding-top: 20px;
+
+}
+.logo-images img{
+    padding-right: 40px;
+}
+
+/* products section */
+.product-heading{
+    text-align: left;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 130px;
+    padding-left: 40px;
+}
+.product-details{
+padding: 70px;
+background-color: rgb(243, 245, 247);
+border-radius: 20px;
+font-family: "Cormorant Garamond", serif;
+font-size: 20px;
+}
+
+
+.product-images{
+    width: 300px;
+   transition: transform 1s ease-out;
+   border-radius: 7px;
+   box-shadow:
+   0px 4.9px 22.6px -29px rgba(0, 0, 0, 0.075),
+   0px 14.6px 62.6px -29px rgba(0, 0, 0, 0.089),
+   0px 40.6px 150.7px -29px rgba(0, 0, 0, 0.084),
+   0px 276px 500px -29px rgba(0, 0, 0, 0.07)
+ ;
+ 
+}
+.product-images:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.product-section{
+background-color: #dee7ea;
+margin: 40px;
+border-radius: 5px;
+padding-bottom: 50px;
+}
+.read-more{
+  border: 1px solid #6eb3cf;
+  background-color:#F4F5F7 ;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+
+/* contact section */
+.contact-block1{
+    position: relative;
+    top: 180px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+}
+.contact-block2{
+    background-color: #F4F5F7;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px grey;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+}
+iframe{
+    width: 100px;
+}
+.footer{
+  background-color: #DFE7EA;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+
+/* about us page */
+
+.about-us-page h1{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 80px;
+}
+ .story{
+  margin-left: 200px;
+
+}
+
+.about-us-page p{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+}
+
+.founder{
+  border-radius: 100000px;
+}
